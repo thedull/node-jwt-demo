@@ -11,3 +11,6 @@ curl -X POST -H "Content-Type: application/json" -d '{"username":"user1", "passw
 ```bash
 curl -X GET -H "Authorization: Bearer <jwt>" 'http://localhost:3000/admin'
 ```
+
+### Based on
+https://stackabuse.com/authentication-and-authorization-with-jwts-in-express-js/
