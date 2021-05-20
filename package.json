@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc && node ./build/auth.js"
+    "start": "node ./build/auth.js",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
